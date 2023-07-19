@@ -1,0 +1,17 @@
+{
+	"name": "aomi-site",
+	"version": "1.18.2",
+	"description": "",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"build": "node build.mjs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"zx": "^7.1.1",
+		"magicast": "^0.2.2"
+	}
+}

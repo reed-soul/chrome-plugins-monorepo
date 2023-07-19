@@ -1,0 +1,12 @@
+{
+  "name": "chrome-plugins-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter aomi* run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
