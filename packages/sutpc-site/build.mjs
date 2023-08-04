@@ -1,4 +1,6 @@
-import { $, fs, question } from "zx";
+#!/usr/bin/env zx
+import "zx/globals";
+import { zip } from "zip-a-folder";
 import { loadFile, writeFile } from "magicast";
 
 import packageJson from "./package.json" assert { type: "json" };
@@ -26,15 +28,14 @@ const updateVersion = async () => {
 
 await updateVersion();
 
-await $`cp -r ./src ./aomi-sites-f2e`;
-await $`cp -r ./src ./aomi-sites-user`;
+await $`cp -r ./src ./sutpc-sites-f2e`;
+await $`cp -r ./src ./sutpc-sites-user`;
 
-const newPath = "./aomi-sites-user/constant.js";
+const newPath = "./sutpc-sites-user/constant.js";
 const constants = await loadFile(newPath);
 constants.exports.isF2E = false;
 await writeFile(constants, newPath);
 
-await $`7z a ./dist/aomi-sites-f2e-${version}.zip -r ./aomi-sites-f2e/*`;
-await $`7z a ./dist/aomi-sites-user-${version}.zip -r ./aomi-sites-user/*`;
+await zip(`./dist/`, `./dist/aomi-sites-f2e-${version}.zip`);
 
-await $`rm -rf ./aomi-sites-f2e ./aomi-sites-user`;
+await $`rm -rf ./sutpc-sites-f2e ./sutpc-sites-user`;

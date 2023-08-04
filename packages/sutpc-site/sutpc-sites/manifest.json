@@ -1,0 +1,22 @@
+{
+	"manifest_version": 3,
+	"name": "aomi-sites-map-self",
+	"version": "1.18.2",
+	"description": "方便快速查看项目网址",
+	"author": "lsq",
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"host_permissions": [
+		"https://flow-openapi.aliyun.com/",
+		"http://flow-openapi.aliyun.com/"
+	],
+	"action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
