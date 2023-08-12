@@ -10,14 +10,22 @@ const WORK_SITES = new Map([
     "全要素工时填报",
     "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2F1ED797468A8A4B97899301E9015D1007&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-8%E6%9C%88.xlsx",
   ],
-  ["iconify", "https://icon-sets.iconify.design/"],
-  ["Element Plus", "https://element-plus.org/zh-CN/component/button.html"],
+  [
+    "Ones",
+    "https://ones.sutpc.com/project/#/team/MWYKt1yX/project/2bf6emx5HvRYE5jj/component/Y2wq5Zz5/sprint/GeQjKjk1/all",
+  ],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
   ["全要素文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
+  [
+    "飞渡API",
+    "http://10.10.48.217:8080/samples/locale_zh/main.html?iid=1690894224723&pid=1",
+  ],
   ["飞渡文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["语雀", "https://aomi.yuque.com/"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["email", "https://exmail.qq.com/login"],
+  ["iconify", "https://icon-sets.iconify.design/"],
+  ["Element Plus", "https://element-plus.gitee.io/zh-CN/component/button.html"],
 ]);
 
 const SUTPC_SITE = new Map([
@@ -81,6 +89,31 @@ const SUTPC_SITE = new Map([
       ],
       [
         "http://10.3.4.193:10001/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.3.4.150:10000",
+        "https://flow.aliyun.com/pipelines/1534155/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
+      ],
+      [
+        "https://admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "全要素配置后台",
+    [
+      [
+        "http://10.3.4.193:10011/",
+        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.3.4.193:10011/",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
