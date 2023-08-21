@@ -20,12 +20,15 @@ const WORK_SITES = new Map([
     "飞渡API",
     "http://10.10.48.217:8080/samples/locale_zh/main.html?iid=1690894224723&pid=1",
   ],
+  ["飞渡接口API", "http://10.10.48.217:8080/samples/locale_zh/manager.html"],
+  ["飞渡示例文档", "http://10.10.48.217:8080/samples/locale_zh/samples.html#"],
   ["飞渡文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["语雀", "https://aomi.yuque.com/"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
-  ["email", "https://exmail.qq.com/login"],
+  ["IconPark", "https://iconpark.oceanengine.com/official"],
   ["iconify", "https://icon-sets.iconify.design/"],
   ["Element Plus", "https://element-plus.gitee.io/zh-CN/component/button.html"],
+  ["email", "https://exmail.qq.com/login"],
 ]);
 
 const SUTPC_SITE = new Map([

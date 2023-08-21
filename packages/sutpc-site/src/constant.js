@@ -25,9 +25,10 @@ const WORK_SITES = new Map([
   ["飞渡文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["语雀", "https://aomi.yuque.com/"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
-  ["email", "https://exmail.qq.com/login"],
+  ["IconPark", "https://iconpark.oceanengine.com/official"],
   ["iconify", "https://icon-sets.iconify.design/"],
   ["Element Plus", "https://element-plus.gitee.io/zh-CN/component/button.html"],
+  ["email", "https://exmail.qq.com/login"],
 ]);
 
 const SUTPC_SITE = new Map([
