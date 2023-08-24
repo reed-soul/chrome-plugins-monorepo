@@ -20,6 +20,7 @@ const WORK_SITES = new Map([
     "飞渡API",
     "http://10.10.48.217:8080/samples/locale_zh/main.html?iid=1690894224723&pid=1",
   ],
+  ["Mars3D", "http://mars3d.cn/example.html#/ex_0"],
   ["飞渡接口API", "http://10.10.48.217:8080/samples/locale_zh/manager.html"],
   ["飞渡示例文档", "http://10.10.48.217:8080/samples/locale_zh/samples.html#"],
   ["飞渡文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],

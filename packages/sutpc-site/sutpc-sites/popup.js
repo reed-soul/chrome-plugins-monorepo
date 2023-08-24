@@ -36,11 +36,9 @@ const App = () => {
     .join("")}
   </div>
   <div class="block">
+<div class="work">
   ${[...WORK_SITES]
-    .map(
-      ([name, url]) =>
-        `<div class="row"><a data="${url}" href="#">${name}</a></div>`
-    )
+    .map(([name, url]) => `<a data="${url}" href="#">${name}</a>`)
     .join("")}
 </div>`;
 
