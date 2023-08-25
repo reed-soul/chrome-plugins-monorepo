@@ -14,6 +14,7 @@ const WORK_SITES = new Map([
     "Ones",
     "https://ones.sutpc.com/project/#/team/MWYKt1yX/project/2bf6emx5HvRYE5jj/component/Y2wq5Zz5/sprint/GeQjKjk1/all",
   ],
+  ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
   ["全要素文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
   [
