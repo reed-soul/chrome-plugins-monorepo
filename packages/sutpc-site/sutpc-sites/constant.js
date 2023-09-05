@@ -85,6 +85,31 @@ const SUTPC_SITE = new Map([
     ],
   ],
   [
+    "仿真",
+    [
+      [
+        "http://10.3.4.18:9000/#/login",
+        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://uat-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://sit-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1534155/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
+      ],
+      [
+        "https://admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
     "全要素平台",
     [
       [
