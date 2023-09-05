@@ -63,7 +63,7 @@ const SUTPC_SITE = new Map([
     "租户中心",
     [
       [
-        "http://dev-tpaas.sutpc.com/#/home",
+        "http://dev-tpaas.sutpc.com:8082/#/home",
         "https://flow.aliyun.com/pipelines/1533771/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
