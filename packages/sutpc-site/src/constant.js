@@ -19,10 +19,15 @@ const WORK_SITES = new Map([
   ["飞速低代码", "http://dev-dashboard.sutpc.com/"],
   ["全要素wiki文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
   ["Mars3D", "http://mars3d.cn/example.html#/ex_0"],
-  ["飞渡API", "http://10.10.50.229:8081/samples/locale_zh/main.html"],
-  ["飞渡接口API", "http://10.10.50.229:8081/samples/locale_zh/manager.html"],
+  ["飞渡API文档", "http://10.10.50.229:8081/doc/api/index.html"],
+  ["飞渡API调试", "http://10.10.50.229:8081/samples/locale_zh/main.html"],
   ["飞渡示例文档", "http://10.10.50.229:8081/samples/locale_zh/samples.html#"],
+  ["飞渡接口API", "http://10.10.50.229:8081/samples/locale_zh/manager.html"],
   ["飞渡官方文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
+  [
+    "分享文档",
+    "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
+  ],
   ["语雀", "https://aomi.yuque.com/"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
@@ -32,6 +37,31 @@ const WORK_SITES = new Map([
 ]);
 
 const SUTPC_SITE = new Map([
+  [
+    "开发者平台",
+    [
+      [
+        "http://dev-tpaas.sutpc.com:9280/",
+        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://uat-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://sit-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1534155/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
+      ],
+      [
+        "https://admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
   [
     "管理中心",
     [
