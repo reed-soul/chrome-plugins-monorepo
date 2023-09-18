@@ -8,7 +8,7 @@ const WORK_SITES = new Map([
   ["工时填报", "https://rddms.sutpc.com/#/em-working-log"],
   [
     "全要素工时填报",
-    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2F1ED797468A8A4B97899301E9015D1007&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-8%E6%9C%88.xlsx",
+    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2FDCEB3BA8F0684D5BA4A040278FB5E198&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-9%E6%9C%88.xlsx",
   ],
   [
     "Ones",
@@ -16,14 +16,31 @@ const WORK_SITES = new Map([
   ],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
+
+  ["飞渡API文档(229)", "http://10.10.50.229:8081/doc/api/index.html"],
+  ["飞渡API调试(229)", "http://10.10.50.229:8081/samples/locale_zh/main.html"],
+  [
+    "飞渡示例文档(229)",
+    "http://10.10.50.229:8081/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(229)",
+    "http://10.10.50.229:8081/samples/locale_zh/manager.html",
+  ],
+  ["飞渡API文档(227)", "http://10.10.50.227:8080/doc/api/index.html"],
+  ["飞渡API调试(227)", "http://10.10.50.227:8080/samples/locale_zh/main.html"],
+  [
+    "飞渡示例文档(227)",
+    "http://10.10.50.227:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(227)",
+    "http://10.10.50.227:8080/samples/locale_zh/manager.html",
+  ],
+  ["飞渡官方文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["飞速低代码", "http://dev-dashboard.sutpc.com/"],
   ["全要素wiki文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
   ["Mars3D", "http://mars3d.cn/example.html#/ex_0"],
-  ["飞渡API文档", "http://10.10.50.229:8081/doc/api/index.html"],
-  ["飞渡API调试", "http://10.10.50.229:8081/samples/locale_zh/main.html"],
-  ["飞渡示例文档", "http://10.10.50.229:8081/samples/locale_zh/samples.html#"],
-  ["飞渡接口API", "http://10.10.50.229:8081/samples/locale_zh/manager.html"],
-  ["飞渡官方文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   [
     "分享文档",
     "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
