@@ -40,12 +40,16 @@ const WORK_SITES = new Map([
   ["飞渡官方文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["飞速低代码", "http://dev-dashboard.sutpc.com/"],
   ["全要素wiki文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
-  ["Mars3D", "http://mars3d.cn/example.html#/ex_0"],
+  [
+    "全要素开发资料",
+    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F0C2BD30805154FF4821E144F8D5B416B%2FE663470B10234C1199A733B1946E7296&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%BC%80%E5%8F%91%E8%B5%84%E6%96%99.xlsx",
+  ][("Mars3D", "http://mars3d.cn/example.html#/ex_0")],
   [
     "分享文档",
     "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
   ],
   ["语雀", "https://aomi.yuque.com/"],
+  ["MinIO", "http://10.3.4.149:9001/login"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
   ["iconify", "https://icon-sets.iconify.design/"],
