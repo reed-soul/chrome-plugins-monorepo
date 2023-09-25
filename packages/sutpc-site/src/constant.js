@@ -49,7 +49,11 @@ const WORK_SITES = new Map([
     "分享文档",
     "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
   ],
-  ["语雀", "https://aomi.yuque.com/"],
+  ["代码", "https://sutpc.coding.net/p/cim-base/repos"],
+  ["基础平台流水线", "https://sutpc.coding.net/p/base/ci/job"],
+  ["CIM代码", "https://sutpc.coding.net/p/base/repos"],
+  ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
+  ["npm制品", "https://sutpc.coding.net/p/kczx_public_repo"],
   ["MinIO", "http://10.3.4.149:9001/login"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
@@ -164,7 +168,7 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.3.4.193:10001/",
-        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
