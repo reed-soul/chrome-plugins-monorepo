@@ -8,7 +8,7 @@ const WORK_SITES = new Map([
   ["工时填报", "https://rddms.sutpc.com/#/em-working-log"],
   [
     "全要素工时填报",
-    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2FDCEB3BA8F0684D5BA4A040278FB5E198&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-9%E6%9C%88.xlsx",
+    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2F1F3C7671648F4E72A537C9DE980BAD90&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-10%E6%9C%88.xlsx",
   ],
   [
     "Ones",
@@ -77,11 +77,6 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://sit-admin.aomiapp.com",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
         "https://admin.aomiapp.com",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
@@ -97,17 +92,12 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
-        "http://uat-admin.aomiapp.com",
+        "http://sit-tpaas.sutpc.com/#/home",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://sit-admin.aomiapp.com",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
-        "https://admin.aomiapp.com",
+        "http://tpaas.sutpc.com/#/home",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -125,11 +115,6 @@ const SUTPC_SITE = new Map([
         "http://uat-admin.aomiapp.com",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
-      ],
-      [
-        "http://sit-admin.aomiapp.com",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
       ],
       [
         "https://admin.aomiapp.com",
@@ -152,12 +137,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://sit-admin.aomiapp.com",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
-        "https://admin.aomiapp.com",
+        "https://10.10.180.131",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -177,13 +157,8 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.3.4.150:10000",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
-        "https://admin.aomiapp.com",
-        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://10.10.180.136:10001",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
     ],
@@ -202,12 +177,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.3.4.150:10000",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
-        "https://admin.aomiapp.com",
+        "https://10.10.180.136:10011",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -227,12 +197,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.3.4.150:10000",
-        "https://flow.aliyun.com/pipelines/1534155/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/g5ofE5DPQKIRIkdinFkq",
-      ],
-      [
-        "https://admin.aomiapp.com",
+        "https://10.10.180.136:10001",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -241,9 +206,8 @@ const SUTPC_SITE = new Map([
 ]);
 
 const ENV_MAP = {
-  0: "test",
-  1: "uat",
-  2: "gray",
+  0: "dev",
+  2: "sit",
   3: "prod",
 };
 
