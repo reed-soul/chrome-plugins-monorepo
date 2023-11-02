@@ -27,16 +27,6 @@ const WORK_SITES = new Map([
     "飞渡接口API(229)",
     "http://10.10.50.229:8081/samples/locale_zh/manager.html",
   ],
-  ["飞渡API文档(227)", "http://10.10.50.227:8080/doc/api/index.html"],
-  ["飞渡API调试(227)", "http://10.10.50.227:8080/samples/locale_zh/main.html"],
-  [
-    "飞渡示例文档(227)",
-    "http://10.10.50.227:8080/samples/locale_zh/samples.html#",
-  ],
-  [
-    "飞渡接口API(227)",
-    "http://10.10.50.227:8080/samples/locale_zh/manager.html",
-  ],
   ["飞渡官方文档", "http://sdk.g-bim.cn/doc/api/BaseObject.html"],
   ["飞速低代码", "http://dev-dashboard.sutpc.com/"],
   ["全要素wiki文档", "https://sutpc.coding.net/p/cim-base/wiki/2387"],
@@ -51,7 +41,7 @@ const WORK_SITES = new Map([
   ],
   ["代码", "https://sutpc.coding.net/p/cim-base/repos"],
   ["基础平台流水线", "https://sutpc.coding.net/p/base/ci/job"],
-  ["CIM代码", "https://sutpc.coding.net/p/base/repos"],
+  ["CIM代码", "https://sutpc.coding.net/p/cim-base/repos"],
   ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
   ["npm制品", "https://sutpc.coding.net/p/kczx_public_repo"],
   ["MinIO", "http://10.3.4.149:9001/login"],
@@ -137,7 +127,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "https://10.10.180.131",
+        "http://10.10.180.131",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -157,7 +147,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "https://10.10.180.136:10001",
+        "http://10.10.180.136:10001",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -168,7 +158,7 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.3.4.193:10011/",
-        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.config.front/git/tree/dev",
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
@@ -177,7 +167,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "https://10.10.180.136:10011",
+        "http://10.10.180.136:10011",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -197,7 +187,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "https://10.10.180.136:10001",
+        "http://10.10.180.136:10001",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
