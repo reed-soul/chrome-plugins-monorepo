@@ -5,7 +5,10 @@ const DOCUMENT_URL = isF2E
   : "https://aomi.yuque.com/staff-rimeff/wi9qad/xg4fcq";
 const WORK_SITES = new Map([
   ["coding", "https://sutpc.coding.net/p/base/repos"],
-  ["工时填报", "https://rddms.sutpc.com/#/em-working-log"],
+  [
+    "工时填报",
+    "https://pms.sutpc.com:9000/pm/11Index/index.html?_id=1699239390750#4UsRdcy84J0hwA/bONcXTGMctJWiHWVdtgQIHNHMaVgA151Rry4H4HfxbGloMuCF",
+  ],
   [
     "全要素工时填报",
     "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2F1F3C7671648F4E72A537C9DE980BAD90&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-10%E6%9C%88.xlsx",
@@ -16,9 +19,24 @@ const WORK_SITES = new Map([
   ],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
-
+  ["飞渡API文档(227)", "http://10.10.50.227:8080/doc/api/index.html"],
+  [
+    "飞渡API调试(227)",
+    "http://10.10.50.227:8080/samples/locale_zh/main.html?pid=7",
+  ],
+  [
+    "飞渡示例文档(227)",
+    "http://10.10.50.227:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(227)",
+    "http://10.10.50.227:8080/samples/locale_zh/manager.html",
+  ],
   ["飞渡API文档(229)", "http://10.10.50.229:8081/doc/api/index.html"],
-  ["飞渡API调试(229)", "http://10.10.50.229:8081/samples/locale_zh/main.html"],
+  [
+    "飞渡API调试(229)",
+    "http://10.10.50.229:8081/samples/locale_zh/main.html?pid=7",
+  ],
   [
     "飞渡示例文档(229)",
     "http://10.10.50.229:8081/samples/locale_zh/samples.html#",
