@@ -57,7 +57,7 @@ const WORK_SITES = new Map([
     "分享文档",
     "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
   ],
-  ["代码", "https://sutpc.coding.net/p/cim-base/repos"],
+  ["代码", "https://sutpc.coding.net/p/base/repos"],
   ["基础平台流水线", "https://sutpc.coding.net/p/base/ci/job"],
   ["CIM代码", "https://sutpc.coding.net/p/cim-base/repos"],
   ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
@@ -200,12 +200,12 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
-        "http://10.3.4.193:10000/",
+        "http://10.10.180.114/",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.10.180.136:10001",
+        "http://civilos.sutpc.com/",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -215,8 +215,8 @@ const SUTPC_SITE = new Map([
 
 const ENV_MAP = {
   0: "dev",
-  2: "sit",
-  3: "prod",
+  1: "sit",
+  2: "prod",
 };
 
 export { DOCUMENT_URL, ENV_MAP, SUTPC_SITE, WORK_SITES };
