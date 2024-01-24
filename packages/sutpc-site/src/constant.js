@@ -19,6 +19,20 @@ const WORK_SITES = new Map([
   ],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
+  ["飞渡API文档(235)", "http://10.10.50.235:8080/doc/api/index.html"],
+  [
+    "飞渡API调试(235)",
+    "http://10.10.50.235:8080/samples/locale_zh/main.html?pid=7",
+  ],
+  [
+    "飞渡示例文档(235)",
+    "http://10.10.50.235:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(235)",
+    "http://10.10.50.235:8080/samples/locale_zh/manager.html",
+  ],
+
   ["飞渡API文档(227)", "http://10.10.50.227:8080/doc/api/index.html"],
   [
     "飞渡API调试(227)",
@@ -69,7 +83,6 @@ const WORK_SITES = new Map([
   ["CIM代码", "https://sutpc.coding.net/p/cim-base/repos"],
   ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
   ["npm制品", "https://sutpc.coding.net/p/kczx_public_repo"],
-  ["MinIO", "http://10.3.4.149:9001/login"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
   ["iconify", "https://icon-sets.iconify.design/"],
@@ -213,6 +226,46 @@ const SUTPC_SITE = new Map([
       ],
       [
         "http://civilos.sutpc.com/",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "CIM底座",
+    [
+      [
+        "http://10.3.4.150:10000/",
+        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.10.180.114/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://civilos.sutpc.com/",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "MinNIO",
+    [
+      [
+        "http://10.3.4.149:9001",
+        "https://flow.aliyun.com/pipelines/1533771/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.10.180.114/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.10.180.134:9001/",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
