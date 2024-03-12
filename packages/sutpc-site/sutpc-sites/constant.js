@@ -6,8 +6,8 @@ const DOCUMENT_URL = isF2E
 const WORK_SITES = new Map([
   ["coding", "https://sutpc.coding.net/p/base/repos"],
   [
-    "工时填报",
-    "https://pms.sutpc.com:9000/pm/11Index/index.html?_id=1699239390750#4UsRdcy84J0hwA/bONcXTGMctJWiHWVdtgQIHNHMaVgA151Rry4H4HfxbGloMuCF",
+    "本机api调试",
+    "file:///C:/Users/Sutpc/AppData/Roaming/DTS%20Explorer/6.0/SDK/samples/locale_zh/int.html",
   ],
   [
     "全要素工时填报",
