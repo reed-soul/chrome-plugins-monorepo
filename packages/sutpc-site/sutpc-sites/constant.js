@@ -192,6 +192,46 @@ const SUTPC_SITE = new Map([
     ],
   ],
   [
+    "坪山",
+    [
+      [
+        "http://10.10.2.136:10011/",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.10.2.136:11001/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.10.180.136:10001",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "运营监测平台",
+    [
+      [
+        "http://10.10.2.136:10001/",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.10.2.136:11001/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.10.180.136:10001",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
     "全要素配置后台",
     [
       [
