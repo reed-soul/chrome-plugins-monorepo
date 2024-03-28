@@ -180,7 +180,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
-        "http://10.3.4.193:10001/",
+        "http://10.3.4.150:11001",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
@@ -200,7 +200,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
-        "http://10.10.2.136:11001/",
+        "http://10.3.4.150:10012",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
