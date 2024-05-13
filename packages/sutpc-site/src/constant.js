@@ -19,7 +19,20 @@ const WORK_SITES = new Map([
   ],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
-  ["飞渡API文档(235)", "http://10.10.50.235:8080/doc/api/index.html"],
+  ["飞渡API文档(佛山)", "http://192.168.101.33:8080/doc/api/index.html"],
+  [
+    "飞渡API调试(佛山)",
+    "http://192.168.101.33:8080/samples/locale_zh/main.html?pid=7",
+  ],
+  [
+    "飞渡示例文档(佛山)",
+    "http://192.168.101.33:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(佛山)",
+    "http://192.168.101.33:8080/samples/locale_zh/manager.html",
+  ],
+  ["飞渡API文档(235)", "http://192.168.101.33:8080/doc/api/index.html"],
   [
     "飞渡API调试(235)",
     "http://10.10.50.235:8080/samples/locale_zh/main.html?pid=7",
@@ -32,7 +45,6 @@ const WORK_SITES = new Map([
     "飞渡接口API(235)",
     "http://10.10.50.235:8080/samples/locale_zh/manager.html",
   ],
-
   ["飞渡API文档(227)", "http://10.10.50.227:8080/doc/api/index.html"],
   [
     "飞渡API调试(227)",
@@ -147,33 +159,13 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
       ],
       [
-        "http://uat-admin.aomiapp.com",
+        "http://10.10.180.105:9200/",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
         "http://10.10.180.131",
         "https://flow.aliyun.com/pipelines/1534426/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
-      ],
-    ],
-  ],
-  [
-    "全要素平台",
-    [
-      [
-        "http://10.3.4.193:10001/",
-        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
-      ],
-      [
-        "http://10.3.4.150:11001",
-        "https://flow.aliyun.com/pipelines/1533927/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
-      ],
-      [
-        "http://10.10.180.136:10001",
-        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
     ],
@@ -208,6 +200,46 @@ const SUTPC_SITE = new Map([
       ],
       [
         "http://10.10.2.136:11001/",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.10.180.136:10001",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "abuzhabi",
+    [
+      [
+        "http://10.3.4.232:20010/#/index",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.3.4.150:11001",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://10.10.180.136:10001",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "全要素平台",
+    [
+      [
+        "http://10.3.4.193:10001/",
+        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+      ],
+      [
+        "http://10.3.4.150:11001",
         "https://flow.aliyun.com/pipelines/1533927/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
