@@ -155,17 +155,17 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.3.4.18:9000/#/login",
-        "https://flow.aliyun.com/pipelines/1533771/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+        "https://sutpc.coding.net/p/SUTPCTrafficSim/d/tpaas-sim-portal/git/merges/create/develop...",
+        "https://sutpc.coding.net/p/SUTPCTrafficSim/ci/job?id=2546326",
       ],
       [
         "http://10.10.180.105:9200/",
-        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://sutpc.coding.net/p/SUTPCTrafficSim/d/tpaas-sim-portal/git/merges/create/sit...develop",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
         "http://10.10.180.131",
-        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://sutpc.coding.net/p/SUTPCTrafficSim/d/tpaas-sim-portal/git/merges/create",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
     ],
