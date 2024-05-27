@@ -85,7 +85,7 @@ const WORK_SITES = new Map([
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
   ["iconify", "https://icon-sets.iconify.design/"],
-  ["Element Plus", "https://element-plus.gitee.io/zh-CN/component/button.html"],
+  ["Element Plus", "http://dev.sutpc.com:9008/zh-CN/component/button.html"],
   ["email", "https://exmail.qq.com/login"],
 ]);
 
