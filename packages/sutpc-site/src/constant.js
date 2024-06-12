@@ -87,6 +87,7 @@ const WORK_SITES = new Map([
   ["iconify", "https://icon-sets.iconify.design/"],
   ["Element Plus", "http://dev.sutpc.com:9008/zh-CN/component/button.html"],
   ["email", "https://exmail.qq.com/login"],
+  ["open webui", "http://192.168.101.33:3000/"],
 ]);
 
 const SUTPC_SITE = new Map([
