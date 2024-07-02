@@ -19,18 +19,18 @@ const WORK_SITES = new Map([
   ],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
-  ["飞渡API文档(佛山)", "http://192.168.101.146:8080/doc/api/index.html"],
+  ["飞渡API文档(佛山)", "http://192.168.101.172:8080/doc/api/index.html"],
   [
     "飞渡API调试(佛山)",
-    "http://192.168.101.146:8080/samples/locale_zh/main.html?pid=7",
+    "http://192.168.101.172:8080/samples/locale_zh/main.html?pid=7",
   ],
   [
     "飞渡示例文档(佛山)",
-    "http://192.168.101.146:8080/samples/locale_zh/samples.html#",
+    "http://192.168.101.172:8080/samples/locale_zh/samples.html#",
   ],
   [
     "飞渡接口API(佛山)",
-    "http://192.168.101.146:8080/samples/locale_zh/manager.html",
+    "http://192.168.101.172:8080/samples/locale_zh/manager.html",
   ],
   ["飞渡API文档(235)", "http://10.10.50.235:8080/doc/api/index.html"],
   [
@@ -87,7 +87,7 @@ const WORK_SITES = new Map([
   ["iconify", "https://icon-sets.iconify.design/"],
   ["Element Plus", "http://dev.sutpc.com:9008/zh-CN/component/button.html"],
   ["email", "https://exmail.qq.com/login"],
-  ["open webui", "http://192.168.101.146:3000/"],
+  ["open webui", "http://192.168.101.172:3000/"],
 ]);
 
 const SUTPC_SITE = new Map([
