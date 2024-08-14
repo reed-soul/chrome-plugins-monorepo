@@ -88,6 +88,7 @@ const WORK_SITES = new Map([
   ["Element Plus", "http://dev.sutpc.com:9008/zh-CN/component/button.html"],
   ["email", "https://exmail.qq.com/login"],
   ["open webui", "http://192.168.0.62:3000/"],
+  ["前端监控", "http://10.10.2.136:9010/"],
 ]);
 
 const SUTPC_SITE = new Map([
