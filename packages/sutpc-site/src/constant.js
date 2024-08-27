@@ -89,6 +89,7 @@ const WORK_SITES = new Map([
   ["email", "https://exmail.qq.com/login"],
   ["open webui", "http://192.168.0.62:3000/"],
   ["前端监控", "http://10.10.2.136:9010/"],
+  ["阿布扎比", "http://10.3.4.232:20010/#/index"],
 ]);
 
 const SUTPC_SITE = new Map([
