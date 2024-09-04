@@ -36,9 +36,9 @@ const App = () => {
     .join("")}
   </div>
   <div class="block">
-<div class="work">
+<div class="row">
   ${[...WORK_SITES]
-    .map(([name, url]) => `<a data="${url}" href="#">${name}</a>`)
+    .map(([name, url]) => `<a data="${url}" href="#">${name}</a></div>`)
     .join("")}
 </div>`;
 
@@ -48,6 +48,9 @@ const App = () => {
     element.addEventListener("click", async function () {
       if (this.attributes?.isFlowHook) {
         const webhook = this.attributes?.data.value;
+
+        window.open(webhook);
+        return;
         if (!webhook.includes("http"))
           return alert("无法执行，请确认是否存在此流水线");
         const response = await fetch(webhook, {

@@ -218,8 +218,8 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.3.4.232:20010/#/index",
-        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+        "https://sutpc.coding.net/p/cim-base/d/abudhabi.frontend/git",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=4020683",
       ],
       [
         "http://10.3.4.150:11001",
