@@ -178,18 +178,18 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.10.2.136:10011/",
-        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+        "https://sutpc.coding.net/p/cim-base/d/pingshan.project.front/git/merges/create/dev...",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3815645",
       ],
       [
         "http://10.3.4.150:10012",
-        "https://flow.aliyun.com/pipelines/1533927/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+        "https://sutpc.coding.net/p/cim-base/d/pingshan.project.front/git/merges/create/test...",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3967015",
       ],
       [
         "http://10.10.180.136:10001",
-        "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+        "https://sutpc.coding.net/p/cim-base/d/pingshan.project.front/git/merges/create/master...",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3903296",
       ],
     ],
   ],
@@ -198,18 +198,18 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.10.2.136:10001/",
-        "https://sutpc.coding.net/p/cim-base/d/tesp.biz.front/git/merges?code=MR_OPEN&sort=action_at&sortdirection=DESC&status=open",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/r7BdK0uGeIGHZVQNcjq6",
+        "https://sutpc.coding.net/p/cim-base/d/pingshan.operation-monitoring.front/git/merges/create/dev...",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=3973148",
       ],
       [
         "http://10.10.2.136:11001/",
-        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://sutpc.coding.net/p/cim-base/d/pingshan.operation-monitoring.front/git/merges/create/test...",
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
         "http://10.10.180.136:10001",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=4152049",
       ],
     ],
   ],
@@ -227,7 +227,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.10.180.136:10001",
+        "http://10.10.180.137:20010/#/index",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
