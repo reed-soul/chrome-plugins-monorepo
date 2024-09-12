@@ -4,19 +4,10 @@ const DOCUMENT_URL = isF2E
   ? "https://aomi.yuque.com/docs/share/2a5932c8-d1c2-4d0e-90ef-d7c9777ed86f?#"
   : "https://aomi.yuque.com/staff-rimeff/wi9qad/xg4fcq";
 const WORK_SITES = new Map([
-  ["coding", "https://sutpc.coding.net/p/base/repos"],
-  [
-    "本机api调试",
-    "file:///C:/Users/Sutpc/AppData/Roaming/DTS%20Explorer/6.0/SDK/samples/locale_zh/int.html",
-  ],
-  [
-    "全要素工时填报",
-    "https://file.sutpc.com/anyshare/zh-cn/wpspreview/?_tb=none&gns=03291D82CE6D4BFA944D78FF52ED6B1B%2F3E70DC20C4B549378DC42A09CE31D2F3%2F1F3C7671648F4E72A537C9DE980BAD90&name=%E5%85%A8%E8%A6%81%E7%B4%A0%E5%B7%A5%E6%97%B6%E6%94%B6%E9%9B%86-10%E6%9C%88.xlsx",
-  ],
-  [
-    "Ones",
-    "https://ones.sutpc.com/project/#/team/MWYKt1yX/project/2bf6emx5HvRYE5jj/component/Y2wq5Zz5/sprint/GeQjKjk1/all",
-  ],
+  ["中台代码", "https://sutpc.coding.net/p/base/repos"],
+  ["中台流水线", "https://sutpc.coding.net/p/base/ci/job"],
+  ["CIM代码", "https://sutpc.coding.net/p/cim-base/repos"],
+  ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
   ["TPaas前端框架", "https://www.kdocs.cn/l/cugGQgrrXC3z"],
   ["研发规范", "http://dev.sutpc.com/standard/frontend/vue3/"],
   ["飞渡API文档(佛山)", "http://192.168.0.62:8080/doc/api/index.html"],
@@ -77,10 +68,10 @@ const WORK_SITES = new Map([
     "分享文档",
     "https://docs.qq.com/sheet/DY2tVQ0p2c3ByeFR5?tab=BB08J2&_t=1694433003171",
   ],
-  ["代码", "https://sutpc.coding.net/p/base/repos"],
-  ["基础平台流水线", "https://sutpc.coding.net/p/base/ci/job"],
-  ["CIM代码", "https://sutpc.coding.net/p/cim-base/repos"],
-  ["CIM流水线", "https://sutpc.coding.net/p/cim-base/ci/job"],
+  [
+    "Ones",
+    "https://ones.sutpc.com/project/#/team/MWYKt1yX/project/2bf6emx5HvRYE5jj/component/Y2wq5Zz5/sprint/GeQjKjk1/all",
+  ],
   ["npm制品", "https://sutpc.coding.net/p/kczx_public_repo"],
   ["Nacos", "https://sutpc.coding.net/p/cim-base/wiki/508"],
   ["IconPark", "https://iconpark.oceanengine.com/official"],
@@ -88,8 +79,8 @@ const WORK_SITES = new Map([
   ["Element Plus", "http://dev.sutpc.com:9008/zh-CN/component/button.html"],
   ["email", "https://exmail.qq.com/login"],
   ["open webui", "http://192.168.0.62:3000/"],
-  ["前端监控", "http://10.10.2.136:9010/"],
-  ["阿布扎比", "http://10.3.4.232:20010/#/index"],
+  ["前端监控-dev", "http://10.10.2.136:9010/"],
+  ["前端监控-prod", "http://10.10.180.136:9010/"],
 ]);
 
 const SUTPC_SITE = new Map([
@@ -218,18 +209,18 @@ const SUTPC_SITE = new Map([
     [
       [
         "http://10.3.4.232:20010/#/index",
-        "https://sutpc.coding.net/p/cim-base/d/abudhabi.frontend/git",
+        "https://sutpc.coding.net/p/cim-base/d/abudhabi.frontend/git/merges/create/dev...",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=4020683",
       ],
       [
         "http://10.3.4.150:11001",
-        "https://flow.aliyun.com/pipelines/1533927/current",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+        "https://sutpc.coding.net/p/cim-base/d/abudhabi.frontend/git/merges/create/test...",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=4840726",
       ],
       [
         "http://10.10.180.137:20010/#/index",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
-        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+        "https://sutpc.coding.net/p/cim-base/ci/job?id=4840726",
       ],
     ],
   ],

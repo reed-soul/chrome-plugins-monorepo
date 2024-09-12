@@ -23,9 +23,9 @@ const App = () => {
                ([url, flowUrl, flowWebHook], index) =>
                  `<div><a data="${url}" href="#">${
                    ENV_MAP[index]
-                 }</a><a data="${flowUrl}" href='#'>(code)</a>${
+                 }</a><a data="${flowUrl}" href='#'>code</a>${
                    isF2E && flowWebHook
-                     ? `<a isFlowHook data="${flowWebHook}" href='#'>run</a>`
+                     ? `<a isFlowHook data="${flowWebHook}" href='#'>flow</a>`
                      : "<a></a>"
                  }</div>`
              )
