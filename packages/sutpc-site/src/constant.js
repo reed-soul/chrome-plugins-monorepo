@@ -49,6 +49,32 @@ const WORK_SITES = new Map([
     "飞渡接口API(227)",
     "http://10.10.50.227:8080/samples/locale_zh/manager.html",
   ],
+  ["飞渡API文档(131)", "http://10.10.2.131:8080/doc/api/index.html"],
+  [
+    "飞渡API调试(131)",
+    "http://10.10.2.131:8080/samples/locale_zh/main.html?pid=7",
+  ],
+  [
+    "飞渡示例文档(131)",
+    "http://10.10.2.131:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(131)",
+    "http://10.10.2.131:8080/samples/locale_zh/manager.html",
+  ],
+  ["飞渡API文档(225)", "http://10.10.2.225:8080/doc/api/index.html"],
+  [
+    "飞渡API调试(225)",
+    "http://10.10.2.225:8080/samples/locale_zh/main.html?pid=7",
+  ],
+  [
+    "飞渡示例文档(225)",
+    "http://10.10.2.225:8080/samples/locale_zh/samples.html#",
+  ],
+  [
+    "飞渡接口API(225)",
+    "http://10.10.2.225:8080/samples/locale_zh/manager.html",
+  ],
   ["Mars3D API", "http://mars3d.cn/api.html"],
   ["Mars3D 示例", "http://mars3d.cn/example.html#/ex_0"],
   ["Mars3D 开发教程", "http://mars3d.cn/doc.html"],
