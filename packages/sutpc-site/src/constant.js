@@ -111,6 +111,46 @@ const WORK_SITES = new Map([
 
 const SUTPC_SITE = new Map([
   [
+    "成都交投后台",
+    [
+      [
+        "http://10.101.10.71:9100/",
+        "https://sutpc.coding.net/p/energy-digital-platform/d/edo-web-front/git/merges/create/develop...",
+        "https://sutpc.coding.net/p/energy-digital-platform/ci/job?id=5067637",
+      ],
+      [
+        "http://uat-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://tpaas.sutpc.com:9280",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
+    "成都交投大屏",
+    [
+      [
+        "http://10.101.10.71:9101/",
+        "https://sutpc.coding.net/p/energy-digital-platform/d/edo-ls-front/git/merges/create/develop...",
+        "https://sutpc.coding.net/p/energy-digital-platform/ci/job?id=5067801",
+      ],
+      [
+        "http://uat-admin.aomiapp.com",
+        "https://flow.aliyun.com/pipelines/1533927/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
+      ],
+      [
+        "http://tpaas.sutpc.com:9280",
+        "https://flow.aliyun.com/pipelines/1534426/current",
+        "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
+      ],
+    ],
+  ],
+  [
     "开发者平台",
     [
       [
@@ -124,7 +164,7 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "https://admin.aomiapp.com",
+        "http://tpaas.sutpc.com:9280",
         "https://flow.aliyun.com/pipelines/1534426/current",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
@@ -251,7 +291,7 @@ const SUTPC_SITE = new Map([
     ],
   ],
   [
-    "全要素平台",
+    "交通OS",
     [
       [
         "http://10.3.4.193:10001/",
@@ -264,14 +304,14 @@ const SUTPC_SITE = new Map([
         "https://flow-openapi.aliyun.com/pipeline/webhook/zjfte0WZznf0iskCxxXN",
       ],
       [
-        "http://10.10.180.136:10001",
+        "https://transos.sutpc.com/#/homepage",
         "https://sutpc.coding.net/p/cim-base/ci/job?id=3192501",
         "https://flow-openapi.aliyun.com/pipeline/webhook/MVbdobeazHNDnyYRp0fs",
       ],
     ],
   ],
   [
-    "全要素配置后台",
+    "交通OS后台",
     [
       [
         "http://10.3.4.193:10011/",
@@ -291,7 +331,7 @@ const SUTPC_SITE = new Map([
     ],
   ],
   [
-    "全要素后台",
+    "全要素业务后台",
     [
       [
         "http://10.3.4.193:10000/",
